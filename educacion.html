@@ -6,10 +6,167 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="author" content="Walther Corredor">
     <meta name="descripción" content="Resumen curricular"> 
-    <meta name="keywords" content="Comunicación, Desarrollo, Web, Diseño, Responsable, Comprometido, Creativo"> 
-    <title>Educación</title>
+    <meta name="keywords" content="Comunicación, Desarrollo, Web, Diseño, Responsable, Comprometido, Creativo">
+    <title>Resumen curricular</title>
 </head>
 <body>
-    
+    <a href="index.html"><img src="Recursos/Logopersonal.svg" alt="Logopersonal" title="Logo Personal" width="20%" height=""></a>
+    <h1>Resumen Curricular</h1>
+    <br>
+    <h3>Nombre</h3>
+    <h2>Walther Steven Corredor Camargo</h2>
+    <h3>Nacimiento</h3>
+    <h2>03 de junio de 1992 en Bogotá, Colombia</h2>
+    <br>
+    <nav>
+        <table width="600px">
+            <tr>
+                <th><a href="index.html"><h2>Inicio</h2></a></th>
+                <th><a href="educacion.html"><h2>Educación</h2></a></th>
+                <th><a href="experiencia.html"><h2>Experiencia</h2></a></th>
+            </tr>
+        </table>  
+    </nav>
+    <br>
+    <h2>Información Personal</h2>
+    <table border="1" id="Titulos">
+        <thead align="center">
+            <tr>
+                <th>Año</th>
+                <th>Institución</th>
+                <th>Título</th>
+                <th>Lugar</th>
+                <th>¿Culminó?</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td align="center">2015</td>
+                <td>Fundación Universitaria Panamericana</td>
+                <td>Comunicador Social Organizacional</td>
+                <td>Bogotá, Colombia</td>
+                <td align="center">sí</td>
+            </tr>
+            <tr>
+                <td align="center">2015</td>
+                <td>Fundación Universitaria Panamericana</td>
+                <td>Tecnólogo en Gestión Comunicativa y Relaciones Públicas</td>
+                <td>Bogotá, Colombia</td>
+                <td align="center">sí</td>
+            </tr>
+            <tr>
+                <td align="center">2012</td>
+                <td>Fundación Universitaria Panamericana</td>
+                <td>Técnico Profesional en Procesos Comunicativos Empresariales</td>
+                <td>Bogotá, Colombia</td>
+                <td align="center">sí</td>
+            </tr>
+            <tr>
+                <td align="center">2009</td>
+                <td>Instituto Tecnisistemas</td>
+                <td>Técnico Laboral en Programación de Computadores</td>
+                <td>Bogotá, Colombia</td>
+                <td align="center">sí</td>
+            </tr>
+            <tr>
+                <td align="center">2009</td>
+                <td>I. E. D. Carlos Albán Holguín</td>
+                <td>Bachiller Académico</td>
+                <td>Bogotá, Colombia</td>
+                <td align="center">sí</td>
+            </tr>
+        </tbody>        
+    </table>
+    <br>
+    <h3>Cursos</h3>
+    <table border="1" id="Cursos">
+        <thead align="center">
+            <tr>
+                <th>Año</th>
+                <th>Institución</th>
+                <th>Título</th>
+                <th>Lugar</th>
+                <th>¿Culminó?</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td align="center">2016</td>
+                <td>Interactive Advertising Bureau, IAB</td>
+                <td>Curso Básico de Marketing Dígital</td>
+                <td>España</td>
+                <td align="center">sí</td>
+            </tr>
+            <tr>
+                <td align="center">2015</td>
+                <td>Escuela de Organización Industrial</td>
+                <td>Analítica Web</td>
+                <td>España</td>
+                <td align="center">sí</td>
+            </tr>
+            <tr>
+                <td align="center">2015</td>
+                <td>Servicio Nacional de Aprendizaje, SENA</td>
+                <td>Manejo de Herramientas Microsoft Office 2010; Excel</td>
+                <td>Colombia</td>
+                <td align="center">sí</td>
+            </tr>
+            <tr>
+                <td align="center">2015</td>
+                <td>Servicio Nacional de Aprendizaje, SENA</td>
+                <td>Técnicas de Comunicación a Nivel Gerencial</td>
+                <td>Colombia</td>
+                <td align="center">sí</td>
+            </tr>
+            <tr>
+                <td>2012</td>
+                <td>Servicio Nacional de Aprendizaje, SENA</td>
+                <td>Liderazgo en Equipos de Trabajo</td>
+                <td>Colombia</td>
+                <td align="center">sí</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <form autocomplete="on" name="Estudios">
+        <legend>
+            <h2>Agregar Estudios</h2>
+        </legend>
+        <p>
+            <label>
+                <strong>Año:</strong>
+                <select name="Año" id="Año">
+                    <option value="2019">2019</option>
+                    <option>2018</option>
+                    <option>2017</option>
+                    <option>2016</option>
+                    <option>2015</option>
+                    <option>2014</option>
+                    <option>2013</option>
+                    <option>2012</option>
+                    <option>2011</option>
+                    <option>2010</option>
+                    <option>2009</option>               
+                </select>
+            </label>
+        <p/>
+        <p>
+            <strong>Institución</strong>
+            <input type="text" placeholder="Instituto Desarrollo Web" name="Institución" size="80px" autofocus required>
+       </p>
+       <p>
+           <strong>Lugar</strong>
+           <input type="text" placeholder="Bogotá, Colombia" name="Lugar" size="80px" required>
+       </p>
+       <p>
+           <input type="submit" value="Enviar">
+       </p>    
+    </form>
 </body>
+<footer>
+    <h2>Contacto</h2>
+    <p>
+        <a href="mailto:stevencorredor@gmail.com">stevencorredor@gmail.com</a> | 319 *** ** ** | Trans. 24b No. **** <em>Bogotá, Colombia</em>
+    </p>
+ </footer>
 </html>
